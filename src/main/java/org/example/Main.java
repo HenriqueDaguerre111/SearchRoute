@@ -11,7 +11,7 @@ import java.util.*;
 public class Main {
     public static void main(String[] args) throws IOException {
 
-        BufferedReader br = new BufferedReader(new FileReader("C:\\Users\\hdfig\\OneDrive\\Desktop\\CriadorDeRota\\src\\main\\resources\\routes.txt"));
+        BufferedReader br = new BufferedReader(new FileReader("src/main/resources/routes.txt"));
         Map<String, List<Arestas>> grafo = new HashMap<>();
         List<Cidade> cidades = new ArrayList<>();
         String linha = null;
